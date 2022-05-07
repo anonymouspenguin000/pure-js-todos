@@ -1,0 +1,45 @@
+body {
+	font-family: Calibri;
+    margin: 0;
+}
+input, button {
+    background: #ffffff;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.6;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.app {
+    font-size: 18px;
+    padding: 0 20px;
+}
+.app .new {}
+.app .new input,
+.app .new button {
+    border: 2px solid #333333;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.app ul {}
+.app ul li {
+    height: 30px;
+}
+.app ul span {}
+.app ul button {
+    margin: 0 5px;
+}
+.app ul button.like {
+    transform: scale(1.5) rotate(15deg);
+}
